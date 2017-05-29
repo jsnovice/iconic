@@ -1,0 +1,65 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= title
+    //-meta(name='description', content='Free Bootstrap Theme by BootstrapMade.com')
+    //-meta(name='keywords', content='free website templates, free bootstrap themes, free template, free bootstrap, free website template')
+    link(rel='stylesheet', type='text/css', href='css/bulma.css')
+    link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Fira+Sans|Roboto:300,400|Questrial|Satisfy')
+    link(rel='stylesheet', type='text/css', href='css/font-awesome.min.css') 
+    link(rel='stylesheet', type='text/css', href='css/bootstrap.min.css') 
+    link(rel='stylesheet', type='text/css', href='css/animate.css')
+    link(rel='stylesheet', type='text/css', href='css/style.css') 
+    link(rel='stylesheet', type='text/css', href='css/index.css')
+    //-
+      =======================================================
+      Theme Name: Laura
+      Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+      =======================================================
+  body#myPage(data-spy='scroll', data-target='.navbar', data-offset='60', onload='myFunction()')
+    .header
+      .bg-color
+        header#main-header
+          nav.navbar.navbar-default.navbar-fixed-top
+            .container
+              .navbar-header
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='#lauraMenu')
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                a.navbar-brand(href='#') Admin Panel 
+              #lauraMenu.collapse.navbar-collapse
+                ul.nav.navbar-nav.navbar-right.navbar-border
+                  li.active
+                    a(href='#main-header') Home
+                  li
+                    a(href='#about') About
+                  li
+                    a(href='#portfolio') Products
+                  li
+                    a(href='#testimonial') Testimonial
+                  li
+                    a(href='#contact') Contact Us
+                  li
+                    a(href='/logout') Logout
+        .wrapper
+          .container
+            .row
+              .col-md-12.wow.fadeIn.delay-05s
+                .banner-text
+                  h2
+                    | Hello, I am 
+                    span Innocent
+                    |  Moses,
+                  p
+                    | A Chemical Engineer 
+                    br
+                    | & an Enterpreneur 
+                .overlay-detail.text-center
+                  a(href='#about')
+                    i.fa.fa-angle-down
+    

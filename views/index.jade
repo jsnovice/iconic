@@ -1,0 +1,226 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= title
+    meta(name='description', content='Iconic Companies')
+    meta(name='keywords', content='iconic companies, microworlds')
+    link(rel='stylesheet', type='text/css', href='css/bulma.css')
+    link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Fira+Sans|Roboto:300,400|Questrial|Satisfy')
+    link(rel='stylesheet', type='text/css', href='css/font-awesome.min.css') 
+    link(rel='stylesheet', type='text/css', href='css/bootstrap.min.css') 
+    link(rel='stylesheet', type='text/css', href='css/animate.css')
+    link(rel='stylesheet', type='text/css', href='css/style.css') 
+    link(rel='stylesheet', type='text/css', href='css/index.css') 
+    link(rel="shortcut icon" href="/img/iconic.ico" type="image/x-icon")
+    //-
+      =======================================================
+      Theme Name: Laura
+      Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+      Author: BootstrapMade.com
+      Author URL: https://bootstrapmade.com
+      =======================================================
+  body#myPage(data-spy='scroll', data-target='.navbar', data-offset='60', onload='myFunction()')
+    .header
+      .bg-color
+        header#main-header
+          nav.navbar.navbar-default.navbar-fixed-top
+            .container
+              .navbar-header
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='#lauraMenu')
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                a.navbar-brand(href='#') Iconic Companies
+              #lauraMenu.collapse.navbar-collapse
+                ul.nav.navbar-nav.navbar-right.navbar-border
+                  li.active
+                    a(href='#main-header') Home
+                  li
+                    a(href='#about') About
+                  li
+                    a(href='#portfolio') Products
+                  li
+                    a(href='#testimonial') Testimonial
+                  li
+                    a(href='#contact') Contact Us
+                  li
+                    a(href='/login') Login
+        .wrapper
+          .container
+            .row
+              .col-md-12.wow.fadeIn.delay-05s
+                .banner-text
+                  h2
+                    | Hello, I am 
+                    span Innocent
+                    |  Moses,
+                  p
+                    | A Chemical Engineer 
+                    br
+                    | & an Entrepreneur 
+                .overlay-detail.text-center
+                  a(href='#about')
+                    i.fa.fa-angle-down
+    section#about.section-padding.wow.fadeIn.delay-05s
+      .container
+        .row
+          .col-md-6.text-right
+            h2.title-text
+              | Meet
+              br
+              span.deco Innocent
+              |  Moses
+          .col-md-6.text-left
+            .about-text
+              p
+                | Iconic Companies is a company that produces chemical related products of diverse types. We produce paints, pomades, lotions, deodorants, fertilizers, assorted plastic materials, etc. 
+              p  
+              p
+                | This company is up and ready to supply you with the best products. We are dedicated to serving our cutomers with esteem loyalty and high preferential treatment. You won't regret to partner with us
+              p  
+              ul.abt-list
+                li - We are ready to serve you better
+                li - You have an assurance of maximum satisfaction  
+                li - Our experts are dedicated to help you.
+    section#portfolio.section-padding.wow.fadeInUp.delay-05s
+      .container
+        .row
+          .col-md-12
+            h2.title.text-center
+              | Checkout 
+              span.deco Our
+              |  Products
+          
+          .col-md-12
+            .columns
+              .column
+                img.products_pics(src="/img/pro1.jpg")
+              .column
+                img.products_pics(src="/img/pro2.jpg")
+              .column
+                img.products_pics(src="/img/pro3.jpg")
+            .columns
+              .column
+                img.products_pics(src="/img/pro4.jpg")
+              .column
+                img.products_pics(src="/img/pro5.jpg")
+              .column
+                img.products_pics(src="/img/pro1.jpg")
+            //-#myGrid.grid-padding
+              .col-md-4.col-sm-4.padding-right-zero
+                img.img-responsive(src='img/portfolio01.jpg')
+                img.img-responsive(src='img/port01.jpg')
+                img.img-responsive(src='img/port02.jpg')
+                img.img-responsive(src='img/portfolio01.jpg')
+              .col-md-4.col-sm-4.padding-right-zero
+                img.img-responsive(src='img/portfolio02.jpg')
+                img.img-responsive(src='img/port01.jpg')
+                img.img-responsive(src='img/port02.jpg')
+                img.img-responsive(src='img/portfolio01.jpg')
+                img.img-responsive(src='img/port03.jpg')
+              .col-md-4.col-sm-4.padding-right-zero
+                img.img-responsive(src='img/port01.jpg')
+                img.img-responsive(src='img/portfolio01.jpg')
+                img.img-responsive(src='img/portfolio02.jpg')
+                img.img-responsive(src='img/port03.jpg')
+                img.img-responsive(src='img/portfolio02.jpg')
+                img.img-responsive(src='img/port02.jpg')
+    section#testimonial.section-padding.wow.fadeInUp
+      .container
+        .row
+          h2.title.text-center
+            | See What  
+            span.deco People
+            |  Are Saying 
+          .test-sec
+            .col-sm-4
+              blockquote
+                p
+                  | This company is really good because of how much I have benefited from it. 
+              .carousel-info
+                .pull-left
+                  span.testimonials-name Bilal Moses
+                  span.testimonials-post CEO,  Crystal Enterprise Inc.
+            .col-sm-4
+              blockquote
+                p
+                  | If you are looking for quality, Iconic Companies is worth looking at. 
+              .carousel-info
+                .pull-left
+                  span.testimonials-name Jerry Musa
+                  span.testimonials-post CEO,  JermanBiz Inc.
+            .col-sm-4
+              blockquote
+                p
+                  | They are simply the best and I encourage anyone to harness this great opportunity. 
+              .carousel-info
+                .pull-left
+                  span.testimonials-name Caleb David
+                  span.testimonials-post CEO,  Microworlds Softwares Inc.
+    section#contact.section-padding.wow.fadeIn.delay-05s
+      .container
+        .row
+          .col-md-12
+            .contact-sec.text-center
+              h2
+                | Want To 
+                span.deco Contact
+                |  Us?
+              p
+                | It takes few seconds to get to us.
+          .col-md-8.col-md-push-2
+            #sendmessage Your message has been sent. Thank you!
+            #errormessage
+            form.contactForm
+              .form-group
+                input#name.form-control(type='text', name='name', placeholder='Your Name', data-rule='minlen:4', data-msg='Please enter at least 4 chars')
+                .validation
+              .form-group
+                input#email.form-control(type='email', name='email', placeholder='Your Email', data-rule='email', data-msg='Please enter a valid email')
+                .validation
+              .form-group
+                input#subject.form-control(type='text', name='subject', placeholder='Subject', data-rule='minlen:4', data-msg='Please enter at least 8 chars of subject')
+                .validation
+              .form-group
+                textarea.form-control(name='message', rows='5', data-rule='required', data-msg='Please write something for us', placeholder='Message')
+                .validation
+              .text-center
+                button.btn.btn-primary.btn-lg(type='submit') Send Message
+    footer.footer-2.text-center-xs.bg--white
+      .container
+        // end row
+        .row
+          .col-md-6
+            .footer
+              | © Iconic Companies
+              .credits
+                //-
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Laura
+                | System Designed by 
+                a(href='http://microworlds.herokuapp.com') Microworlds Softwares Inc.
+          .col-md-6.text-right
+            ul.social-list
+              li
+                a(href='#0')
+                  i.fa.fa-twitter
+              li
+                a(href='#0')
+                  i.fa.fa-youtube
+              li
+                a(href='#0')
+                  i.fa.fa-facebook
+              li
+                a(href='#0')
+                  i.fa.fa-instagram
+        // end row
+    script(src='js/jquery.min.js')
+    script(src='js/jquery.easing.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/jquery.bxslider.min.js')
+    script(src='js/wow.js')
+    script(src='js/custom.js') 
